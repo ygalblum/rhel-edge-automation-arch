@@ -13,11 +13,11 @@ commonCR:
 pipelines:
   repos:
     tooling:
-      repoURL: https://github.com/redhat-cop/rhel-edge-automation-arch.git
-      targetRevision: main
+      repoURL: https://github.com/ygalblum/rhel-edge-automation-arch.git
+      targetRevision: httpd_repos_list
     blueprints:
-      repoURL: https://github.com/redhat-cop/rhel-edge-automation-arch.git
+      repoURL: https://github.com/ygalblum/rhel-edge-automation-arch.git
       targetRevision: blueprints
     kickstarts:
-      repoURL: https://github.com/redhat-cop/rhel-edge-automation-arch.git
+      repoURL: https://github.com/ygalblum/rhel-edge-automation-arch.git
       targetRevision: kickstarts
